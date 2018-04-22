@@ -2,6 +2,9 @@
 
 """Displays update information per repository for pacman."
 
+Parameters:
+    * pacman.summaryonly : If set to "true", sums up all repos (defaults to False)
+
 Requires the following executables:
     * fakeroot
     * pacman
@@ -13,6 +16,7 @@ import threading
 import bumblebee.input
 import bumblebee.output
 import bumblebee.engine
+import bumblebee.util
 
 #list of repositories.
 #the last one should always be other
@@ -47,7 +51,13 @@ class Module(bumblebee.engine.Module):
         self._count = 0
 
     def updates(self, widget):
-        return '/'.join(map(lambda x: str(widget.get(x, 0)), repos))
+        if bumblebee.util.asbool(self.parameter("summaryonly", False)):
+            total = 0
+            for i in range(len(repos)):
+                total += widget.get(repos[i], 0)
+            return str(total)
+        else:
+            return '/'.join(map(lambda x: str(widget.get(x, 0)), repos))
 
     def update(self, widgets):
         path = os.path.dirname(os.path.abspath(__file__))
