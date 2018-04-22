@@ -7,7 +7,7 @@ Parameters:
     * disk.critical: Critical threshold in % of disk space (defaults ot 90%)
     * disk.path: Path to calculate disk usage from (defaults to /)
     * disk.open: Which application / file manager to launch (default xdg-open)
-    * disk.format: Format string, tags {path}, {used}, {left}, {size} and {percent} (defaults to "{path} {used}/{size} ({percent:05.02f}%)")
+    * disk.format: Format string, tags {path}, {used}, {left}, {size} and {percent} (defaults to "{used}/{size} ({percent:05.02f}%)")
     * (deprecated) disk.showUsed: Show used space (defaults to yes)
     * (deprecated) disk.showSize: Show total size (defaults to yes)
     * (deprecated) disk.showPercent: Show usage percentage (defaults to yes)
