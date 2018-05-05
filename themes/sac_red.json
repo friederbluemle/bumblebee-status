@@ -32,13 +32,13 @@
 			"bg": "#41EAD4"
 		}
 	},
-  "bluetooth": {
-      "ON": {
-			    "fg": "#FDFFFC",
-			    "bg": "#41EAD4"
-      }
-  },
-  "cmus": {
-  	"bg": "#C42021"
-  }
+	"bluetooth": {
+		"ON": {
+			"fg": "#FDFFFC",
+			"bg": "#41EAD4"
+		}
+	},
+	"cmus": {
+		"bg": "#C42021"
+	}
 }

@@ -56,9 +56,9 @@
 		"muted": { "prefix": "" },
 		"unmuted": { "prefix": "" }
 	},
-  "kernel": {
-    "prefix": "\uf17c"
-  },
+	"kernel": {
+		"prefix": "\uf17c"
+	},
 	"nic": {
 		"wireless-up": { "prefix": "" },
 		"wireless-down": { "prefix": "" },
@@ -67,11 +67,11 @@
 		"tunnel-up": { "prefix": "" },
 		"tunnel-down": { "prefix": "" }
 	},
-    "bluetooth": {
-        "ON": { "prefix": "" },
-        "OFF": { "prefix": "" },
-        "?": { "prefix": "" }
-    },
+	"bluetooth": {
+		"ON": { "prefix": "" },
+		"OFF": { "prefix": "" },
+		"?": { "prefix": "" }
+	},
 	"battery": {
 		"charged": { "prefix": "", "suffix": "" },
 		"AC": { "suffix": "" },
@@ -85,7 +85,7 @@
 		"discharging-80": { "prefix": "", "suffix": "" },
 		"discharging-100": { "prefix": "", "suffix": "" },
 		"unlimited": { "prefix": "", "suffix": "" },
-		"estimate": {	"prefix": ""  }
+		"estimate": { "prefix": "" }
 	},
 	"caffeine": {
 		"activated": {"prefix": " " }, "deactivated": { "prefix": " " }
@@ -96,14 +96,14 @@
 	"redshift": {
 		"day": { "prefix": "" }, "night": { "prefix": "" }, "transition": { "prefix": "" }
 	},
-  "sensors": {
-    "prefix": ""
-  },
-  "traffic":{
-	  "rx": { "prefix": "" },
-	  "tx": { "prefix": "" }
-  },
-  "mpd": {
+	"sensors": {
+		"prefix": ""
+	},
+	"traffic":{
+		"rx": { "prefix": "" },
+		"tx": { "prefix": "" }
+	},
+	"mpd": {
 		"playing": { "prefix": "" },
 		"paused": { "prefix": "" },
 		"stopped": { "prefix": "" },
@@ -114,26 +114,26 @@
 		"repeat-on": { "prefix": "" },
 		"repeat-off": { "prefix": "" }
 	},
-  "github": {
-	  "prefix": "  "
-  },
-  "hipchat": {
-	  "prefix": "  "
-  },
-  "spotify": {
-	  "prefix": "  "
-  },
-  "publicip": {
-	  "prefix": "  "
-  },
-  "weather": {
-    "clouds": { "prefix": "" },
-    "rain": { "prefix": "" },
-    "snow": { "prefix": "" },
-    "clear": { "prefix": "" },
-    "thunder": { "prefix": "" }
-  },
-  "taskwarrior": {
-      "prefix": "  "
-  }
+	"github": {
+		"prefix": "  "
+	},
+	"hipchat": {
+		"prefix": "  "
+	},
+	"spotify": {
+		"prefix": "  "
+	},
+	"publicip": {
+		"prefix": "  "
+	},
+	"weather": {
+	"clouds": { "prefix": "" },
+	"rain": { "prefix": "" },
+	"snow": { "prefix": "" },
+	"clear": { "prefix": "" },
+	"thunder": { "prefix": "" }
+	},
+	"taskwarrior": {
+		"prefix": "  "
+	}
 }

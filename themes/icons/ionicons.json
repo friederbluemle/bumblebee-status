@@ -56,9 +56,9 @@
 		"muted": { "prefix": "\uf3b9" },
 		"unmuted": { "prefix": "\uf3ba" }
 	},
-  "kernel": {
-    "prefix": "\uf17c"
-  },
+	"kernel": {
+		"prefix": "\uf17c"
+	},
 	"nic": {
 		"wireless-up": { "prefix": "\uf25c" },
 		"wireless-down": { "prefix": "\uf3d0" },
@@ -67,11 +67,11 @@
 		"tunnel-up": { "prefix": "\uf133" },
 		"tunnel-down": { "prefix": "\uf306" }
 	},
-    "bluetooth": {
-        "ON": { "prefix": "\uf116" },
-        "OFF": { "prefix": "\uf116" },
-        "?": { "prefix": "\uf116" }
-    },
+	"bluetooth": {
+		"ON": { "prefix": "\uf116" },
+		"OFF": { "prefix": "\uf116" },
+		"?": { "prefix": "\uf116" }
+	},
 	"battery": {
 		"charged": { "prefix": "\uf113", "suffix": "\u26b1" },
 		"AC": { "suffix": "\u26b1" },
@@ -85,7 +85,7 @@
 		"discharging-80": { "prefix": "\uf114", "suffix": "\uf3e6" },
 		"discharging-100": { "prefix": "\uf113", "suffix": "\uf3e6" },
 		"unlimited": { "prefix": "\uf402", "suffix": "\u26b1" },
-		"estimate": {	"prefix": "\uf402"  }
+		"estimate": { "prefix": "\uf402" }
 	},
 	"caffeine": {
 		"activated": {"prefix": "\uf272\u3000\uf354" }, "deactivated": { "prefix": "\uf272\u3000\uf355" }
@@ -96,14 +96,14 @@
 	"redshift": {
 		"day": { "prefix": "\uf4b6" }, "night": { "prefix": "\uf467" }, "transition": { "prefix": "\uf475" }
 	},
-  "sensors": {
-    "prefix": "\uf3b6"
-  },
-  "traffic":{
-	  "rx": { "prefix": "\uf365" },
-	  "tx": { "prefix": "\uf35f" }
-  },
-  "mpd": {
+	"sensors": {
+	"prefix": "\uf3b6"
+	},
+	"traffic":{
+		"rx": { "prefix": "\uf365" },
+		"tx": { "prefix": "\uf35f" }
+	},
+	"mpd": {
 		"playing": { "prefix": "\uf488" },
 		"paused": { "prefix": "\uf210" },
 		"stopped": { "prefix": "\uf24f" },
@@ -114,26 +114,26 @@
 		"repeat-on": { "prefix": "\uf459" },
 		"repeat-off": { "prefix": "\uf30f" }
 	},
-  "github": {
-	  "prefix": "\uf233"
-  },
-  "hipchat": {
-	  "prefix": "\uf11c"
-  },
-  "spotify": {
-	  "prefix": "\uf305"
-  },
-  "publicip": {
-	  "prefix": "\uf268"
-  },
-  "weather": {
-    "clouds": { "prefix": "\uf12b" },
-    "rain": { "prefix": "\uf495" },
-    "snow": { "prefix": "\uf4ae" },
-    "clear": { "prefix": "\uf3b0" },
-    "thunder": { "prefix": "\uf4bd" }
-  },
-  "taskwarrior": {
-      "prefix": "\uf454"
-  }
+	"github": {
+		"prefix": "\uf233"
+	},
+	"hipchat": {
+		"prefix": "\uf11c"
+	},
+	"spotify": {
+		"prefix": "\uf305"
+	},
+	"publicip": {
+		"prefix": "\uf268"
+	},
+	"weather": {
+		"clouds": { "prefix": "\uf12b" },
+		"rain": { "prefix": "\uf495" },
+		"snow": { "prefix": "\uf4ae" },
+		"clear": { "prefix": "\uf3b0" },
+		"thunder": { "prefix": "\uf4bd" }
+	},
+	"taskwarrior": {
+		"prefix": "\uf454"
+	}
 }

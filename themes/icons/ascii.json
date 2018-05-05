@@ -67,7 +67,7 @@
 		"rx": { "prefix": "down"},
 		"tx": { "prefix": "up"}
 	},
-    "mpd": {
+	"mpd": {
 		"playing": { "prefix": ">" },
 		"paused": { "prefix": "||" },
 		"stopped": { "prefix": "[]" },
@@ -88,7 +88,7 @@
 		"prefix": ""
 	},
 	"uptime": {
-        "prefix": "uptime"
+		"prefix": "uptime"
 	},
 	"zpool": {
 		"poolread": {"prefix": "pool read "},
