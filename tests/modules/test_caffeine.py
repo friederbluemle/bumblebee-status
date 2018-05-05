@@ -44,7 +44,7 @@ class TestCaffeineModule(unittest.TestCase):
         mocks.mouseEvent(stdin=self.stdin, button=LEFT_MOUSE, inp=self.input, module=self.module)
         self.popen.assert_call("xset s default")
         self.popen.assert_call("notify-send \"Out of coffee\"")
-        
+
         self.popen.mock.communicate.return_value = (self.xset_inactive, None)
         mocks.mouseEvent(stdin=self.stdin, button=LEFT_MOUSE, inp=self.input, module=self.module)
         self.popen.assert_call("xset s off")

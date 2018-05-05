@@ -97,7 +97,7 @@ class TestBatteryModule(unittest.TestCase):
         self.file.read.return_value = self.normalValue
         self.module.update_all()
         self.assertTrue("charging" in self.module.state(self.module.widgets()[0]))
-        
+
     def test_discharging(self):
         for limit in [ 10, 25, 50, 80, 100 ]:
             value = limit - 1
